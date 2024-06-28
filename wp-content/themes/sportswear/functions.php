@@ -2569,6 +2569,10 @@ function add_toggle_coupon_product()
         <div class="cart-coupon-overlay coupon-toggle-btn"></div>
 <?php
     }
+    if (wp_is_mobile() && (is_shop() || is_product_category() ))
+    {
+        echo do_shortcode('[yith_wcan_mobile_modal_opener]');
+    }
 }
 add_action('wp_footer', 'add_toggle_coupon_product');
 
