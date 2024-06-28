@@ -2299,4 +2299,7 @@ ol li {
     .text-content {
         padding: 0 15px;
     }
+    .product-detail .flashsale__header {
+        justify-content: space-between !important;
+    }
 }
