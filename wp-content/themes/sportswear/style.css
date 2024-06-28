@@ -2246,6 +2246,20 @@ ol li {
         max-width: 60%;
         margin-left: auto;
     }
+    .woocommerce-billing-fields__field-wrapper p.form-row, .woocommerce-shipping-fields__field-wrapper p.form-row
+    {
+        flex-direction: column;
+    }
+    .woocommerce-billing-fields__field-wrapper p.form-row label, .woocommerce-shipping-fields__field-wrapper p.form-row label
+    {
+        width: 100%;
+        text-align: left;
+        margin-right: 0;
+    }
+    .woocommerce-billing-fields__field-wrapper p.form-row span.woocommerce-input-wrapper, .woocommerce-shipping-fields__field-wrapper p.form-row span.woocommerce-input-wrapper
+    {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 468px) {
