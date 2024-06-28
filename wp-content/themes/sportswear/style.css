@@ -2219,16 +2219,27 @@ ol li {
     .tabs.wc-tabs.product-tabs.small-nav-collapse.nav.nav-uppercase.nav-line.nav-center>li>a {
         font-size: 15px;
     }
+
     .product-promotion {
         width: auto;
         display: block;
     }
+
     .product-detail .col-inner {
         display: block;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
     }
+
     .row-product__custom {
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .single_add_to_cart_button.button.alt {
+        max-width: 62%;
     }
 }
 
@@ -2253,16 +2264,16 @@ ol li {
     .box-bg__trans .action_2 {
         font-size: 15px;
     }
-    .box-image__name .box-name .customer-name
-    {
+
+    .box-image__name .box-name .customer-name {
         font-size: 30px;
     }
-    .box-image__name .box-name .customer-job
-    {
+
+    .box-image__name .box-name .customer-job {
         font-size: 20px;
     }
-    .text-content
-    {
+
+    .text-content {
         padding: 0 15px;
     }
 }
