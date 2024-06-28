@@ -2222,7 +2222,8 @@ ol li {
 
     .product-promotion {
         width: 100%;
-        margin: 0;
+        margin-left: 0;
+        margin-right: 0;
         display: block;
         padding: 0;
 
