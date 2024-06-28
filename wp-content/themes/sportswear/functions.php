@@ -2569,7 +2569,7 @@ function add_toggle_coupon_product()
         <div class="cart-coupon-overlay coupon-toggle-btn"></div>
 <?php
     }
-    pre(isMobile());
+
     if (isMobile() && (is_shop() || is_product_category() ))
     {
         echo do_shortcode('[yith_wcan_mobile_modal_opener]');
