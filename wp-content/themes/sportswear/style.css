@@ -2261,8 +2261,9 @@ ol li {
         font-size: 25px;
     }
     .single_add_to_cart_button.button.alt {
-        max-width: 50%;
+        max-width: 55%;
         margin-left: auto;
+        
     }
     .box-bg__trans .action {
         font-size: 13px;
