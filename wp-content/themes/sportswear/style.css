@@ -2223,6 +2223,9 @@ ol li {
         width: auto;
         display: block;
     }
+    .product-detail .col-inner {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 468px) {
