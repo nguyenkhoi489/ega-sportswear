@@ -2219,6 +2219,10 @@ ol li {
     .tabs.wc-tabs.product-tabs.small-nav-collapse.nav.nav-uppercase.nav-line.nav-center>li>a {
         font-size: 15px;
     }
+    .product-promotion {
+        width: auto;
+        display: block;
+    }
 }
 
 @media screen and (max-width: 468px) {
