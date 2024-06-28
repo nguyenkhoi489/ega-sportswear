@@ -2221,9 +2221,11 @@ ol li {
     }
 
     .product-promotion {
-        width: auto;
+        width: 100%;
+        margin: 0;
         display: block;
         padding: 0;
+
 
     }
     .product-promotion__heading {
@@ -2231,7 +2233,7 @@ ol li {
     }
     .product-detail .col-inner {
         display: block;
-        padding: 0 15px;
+        padding: 0 5px;
     }
 
     .row-product__custom {
