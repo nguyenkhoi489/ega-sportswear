@@ -2243,7 +2243,8 @@ ol li {
     }
 
     .single_add_to_cart_button.button.alt {
-        max-width: 62%;
+        max-width: 60%;
+        margin-left: auto;
     }
 }
 
