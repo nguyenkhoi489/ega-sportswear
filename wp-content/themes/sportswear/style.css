@@ -2269,6 +2269,10 @@ ol li {
 
     .heading-bar__title.flashsale__title {
         font-size: 25px;
+        
+    }
+    .product-detail .heading-bar__title.flashsale__title{
+        margin-bottom: 0;
     }
     .single_add_to_cart_button.button.alt {
         max-width: 55%;
