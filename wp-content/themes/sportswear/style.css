@@ -2223,8 +2223,12 @@ ol li {
     .product-promotion {
         width: auto;
         display: block;
-    }
+        padding: 0;
 
+    }
+    .product-promotion__heading {
+        margin-left: 20px;
+    }
     .product-detail .col-inner {
         display: block;
         margin-left: 0;
