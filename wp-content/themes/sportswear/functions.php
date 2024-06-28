@@ -2569,7 +2569,7 @@ function add_toggle_coupon_product()
         <div class="cart-coupon-overlay coupon-toggle-btn"></div>
 <?php
     }
-    if (wp_is_mobile() && (is_shop() || is_product_category() ))
+    if (isMobile() && (is_shop() || is_product_category() ))
     {
         echo do_shortcode('[yith_wcan_mobile_modal_opener]');
     }
@@ -2577,7 +2577,9 @@ function add_toggle_coupon_product()
 add_action('wp_footer', 'add_toggle_coupon_product');
 
 
-
+function isMobile() {
+    return preg_match("/(android|avantgo|blackberry|bolt|boost|cricket|docomo|fone|hiptop|mini|mobi|palm|phone|pie|tablet|up\.browser|up\.link|webos|wos)/i", $_SERVER["HTTP_USER_AGENT"]);
+}
 
 
 function wc_remove_checkout_fields($fields)
